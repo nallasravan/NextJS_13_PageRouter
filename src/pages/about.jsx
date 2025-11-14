@@ -1,5 +1,8 @@
 "use client"
 
+import Ram from "../components/Ram";
+
+
 export default function About() {
   return (
     <div className="max-w-3xl mx-auto">
@@ -9,6 +12,7 @@ export default function About() {
         <strong className="text-cyan-400">Page Router</strong> +{' '}
         <strong className="text-cyan-400">Tailwind CSS only</strong>.
       </p>
+      <Ram/>
     </div>
   );
 }
