@@ -17,6 +17,9 @@ export default function Navbar() {
           <Link href="/dashboard" className="text-cyan-400 hover:text-white transition">
             Dashboard 
           </Link>
+             <Link href="/users" className="text-cyan-400 hover:text-white transition">
+            users 
+          </Link>
         </div>
       </div>
     </nav>
