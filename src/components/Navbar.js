@@ -20,6 +20,13 @@ export default function Navbar() {
              <Link href="/users" className="text-cyan-400 hover:text-white transition">
             users 
           </Link>
+             <Link href="/ReactImage" className="text-cyan-400 hover:text-white transition">
+            ReactImage 
+          </Link>
+
+                 <Link href="/NextImage" className="text-cyan-400 hover:text-white transition">
+            NextImage 
+          </Link>
         </div>
       </div>
     </nav>
