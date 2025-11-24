@@ -1,4 +1,4 @@
-"use client"
+
 
 
 
@@ -9,8 +9,8 @@ export default function About() {
       <h1 className="text-4xl font-bold text-cyan-400 mb-6">About Us</h1>
       <p className="text-lg text-gray-300 leading-relaxed">
         This app uses <strong className="text-cyan-400">pages/ folder</strong> +{' '}
-        <strong className="text-cyan-400">Page Router</strong> +{' '}
-        <strong className="text-cyan-400">Tailwind CSS only</strong>.
+        <strong className="text-red-400">Page Router</strong> +{' '}
+        <strong className="text-yellow-300">Tailwind CSS only</strong>.
       </p>
     
     </div>
