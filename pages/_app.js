@@ -1,4 +1,5 @@
-import '@/styles/globals.css'
+
+import '@/styles/globals.css';   // Tailwind + base styles
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 

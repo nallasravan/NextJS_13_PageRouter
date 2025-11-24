@@ -1,5 +1,5 @@
 
-
+import styles from '@/styles/About.module.css';
 
 
 
@@ -12,6 +12,13 @@ export default function About() {
         <strong className="text-red-400">Page Router</strong> +{' '}
         <strong className="text-yellow-300">Tailwind CSS only</strong>.
       </p>
+
+      <hr></hr>
+    <p class="uppercase">The quick brown fox ... here using tailwind class name uppercase using  </p>
+
+   <p className={styles.withoutuppcase}>
+      This is uppercase (scoped only to this component)
+    </p>
     
     </div>
   );
